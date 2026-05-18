@@ -1,69 +1,24 @@
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
 import "./Contacto.css";
 
-const Contacto = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm("service_bkaotil", "template_j9uho1e", form.current, {
-        publicKey: "q5vv-b1UPzORYcQNW",
-      })
-      .then(
-        () => {
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        },
-      );
-  };
-
+function Contacto() {
   return (
-    <section>
-      <h2>Contactanos</h2>
-      <form ref={form} onSubmit={sendEmail} className="contacto-wrapper">
-        <div className="form-control">
-          <input type="text" name="user_name" required />
-          <label>
-            {"Nombre y Apellido".split("").map((c, i) => (
-              <span key={i} style={{ transitionDelay: `${i * 50}ms` }}>
-                {c}
-              </span>
-            ))}
-          </label>
-        </div>
-
-        <div className="form-control">
-          <input type="email" name="user_email" required />
-          <label>
-            {"Email".split("").map((c, i) => (
-              <span key={i} style={{ transitionDelay: `${i * 50}ms` }}>
-                {c}
-              </span>
-            ))}
-          </label>
-        </div>
-
-        <div className="form-control">
-          <textarea name="message" required />
-          <label>
-            {"Mensaje".split("").map((c, i) => (
-              <span key={i} style={{ transitionDelay: `${i * 50}ms` }}>
-                {c}
-              </span>
-            ))}
-          </label>
-        </div>
-
-        <button className="ui-btn">
-          <span>Enviar</span>
-        </button>
-      </form>
-    </section>
+    <header>
+      <img
+        src="https://images.unsplash.com/photo-1758117637332-70e2d5a0b8c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+        alt=""
+      />
+      <h2>HOLA, SOY FABIANA</h2>
+      <p>
+        Soy argentina y Dios me llamó a servir como misionera en el País Vasco,
+        España. Esta es una región con una rica historia y cultura, pero también
+        con una gran necesidad espiritual. Mi corazón late por ver comunidades
+        transformadas por el amor de Cristo, y estoy comprometida a trabajar
+        junto con la iglesia local para alcanzar a aquellos que aún no conocen
+        el evangelio. Te invito a ser parte de esta misión a través de tu
+        oración y apoyo.{" "}
+      </p>
+    </header>
   );
-};
+}
 export default Contacto;
