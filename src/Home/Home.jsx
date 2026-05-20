@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import homeImg from "/homeImg.jpg";
 import { motion } from "framer-motion";
 
 function Home() {
