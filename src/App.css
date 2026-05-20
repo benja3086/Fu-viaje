@@ -3,3 +3,13 @@ a{
 
 }
 /* Mobile rules moved to src/mobile.css */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}

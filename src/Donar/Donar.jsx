@@ -1,5 +1,8 @@
+// Donar.jsx
+
 import React from "react";
 import "./Donar.css";
+import { motion } from "framer-motion";
 
 function Donar() {
   const espacios = [
@@ -41,7 +44,13 @@ function Donar() {
   ];
 
   return (
-    <section className="donar">
+    <motion.section
+      className="donar"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+    >
       <span>{espacios.length} ESPACIOS DISPONIBLES</span>
 
       <h1>
@@ -57,15 +66,17 @@ function Donar() {
 
       <div className="grid">
         {espacios.map((espacio) => (
-          <div
+          <motion.div
             key={espacio.id}
             className={`cuadro ${espacio.ocupado ? "ocupado" : ""}`}
+            whileHover={{ y: -3 }}
+            transition={{ duration: 0.2 }}
           >
             {espacio.ocupado ? "✓" : `$${espacio.monto}`}
-          </div>
+          </motion.div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }
 
