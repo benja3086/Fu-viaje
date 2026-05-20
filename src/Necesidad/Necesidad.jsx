@@ -1,6 +1,5 @@
 import React from "react";
 import "./Necesidad.css";
-import necesidadImg from "/necesidadImg.jpg";
 import { motion } from "framer-motion";
 
 function Necesidad() {
@@ -30,7 +29,7 @@ function Necesidad() {
       </p>
 
       <motion.img
-        src={necesidadImg}
+        src="/necesidadImg.jpg"
         alt="Imagen de la página de necesidad"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

@@ -39,7 +39,6 @@ function Compromiso() {
 
       <p>Realiza una donación especial para necesidades específicas</p>
 
-      <img src="" alt="" />
     </motion.div>
   );
 }

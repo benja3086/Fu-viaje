@@ -20,7 +20,6 @@ function Timoteo() {
 
       <h5>1 Timoteo 2:5</h5>
 
-      <img src="" alt="" />
     </motion.div>
   );
 }

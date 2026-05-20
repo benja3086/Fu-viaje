@@ -57,7 +57,6 @@ function Apoyo() {
         </motion.button>
       </a>
 
-      <img src="" alt="" />
     </motion.div>
   );
 }

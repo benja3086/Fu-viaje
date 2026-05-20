@@ -1,6 +1,5 @@
 import React from "react";
 import "./Desafio.css";
-import desafioImg from "/desafioImg.jpg";
 import { motion } from "framer-motion";
 
 function Desafio() {
@@ -29,7 +28,7 @@ function Desafio() {
       <p>Sostén financiero para el ministerio</p>
 
       <motion.img
-        src={desafioImg}
+        src="/desafioImg.jpg"
         alt="Imagen de la página de desafío"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

@@ -2,7 +2,6 @@
 
 import React from "react";
 import "./Establecer.css";
-import establecerImg from "/establecerImg.jpeg";
 import { motion } from "framer-motion";
 
 function Establecer() {
@@ -15,7 +14,7 @@ function Establecer() {
       transition={{ duration: 0.8 }}
     >
       <motion.img
-        src={establecerImg}
+        src="/establecerImg.jpeg"
         alt="Imagen de la página de establecer"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

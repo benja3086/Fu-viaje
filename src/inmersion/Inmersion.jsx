@@ -1,6 +1,5 @@
 import React from "react";
 import "./Inmersion.css";
-import inmersionImg from "/inmersionImg.jpg";
 import { motion } from "framer-motion";
 
 function Inmersion() {
@@ -27,7 +26,7 @@ function Inmersion() {
       <p>Servir con amor y humildad</p>
 
       <motion.img
-        src={inmersionImg}
+        src="/inmersionImg.jpg"
         alt="Imagen de la página de inmersión"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

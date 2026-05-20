@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contacto.css";
-import contactoImg from "/contactoImg.jpg";
 import { motion } from "framer-motion";
 
 function Contacto() {
@@ -13,7 +12,7 @@ function Contacto() {
       transition={{ duration: 0.8 }}
     >
       <motion.img
-        src={contactoImg}
+        src="/contactoImg.jpg"
         alt="Imagen de la página de contacto"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
