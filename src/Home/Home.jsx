@@ -46,7 +46,7 @@ function Home() {
       </a>
 
       <motion.img
-        src={homeImg}
+        src="/homeImg.jpg"
         alt="Imagen de la página principal"
         initial={{ opacity: 0, y: 28 }}
         animate={{ opacity: 1, y: 0 }}
