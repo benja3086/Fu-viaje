@@ -18,7 +18,7 @@ function Necesidad() {
       <h1>El Pueblo Vasco necesita el Evangelio</h1>
 
       <h5>
-        El País Vasco es una de las regiones con mayor secularización en Europa.
+        El País Vasco es una de las regiones con mayor secularización en España.
         A pesar de su rica historia, muchas personas viven sin esperanza y sin
         conocer el amor transformador de Jesucristo. La iglesia evangélica es
         muy pequeña en esta región, y hay una necesidad urgente de obreros que
@@ -26,7 +26,7 @@ function Necesidad() {
       </h5>
 
       <p>
-        Menos del 1% de la población del País Vasco se identifica como
+        Menos del 2% de la población del País Vasco se identifica como
         evangélica
       </p>
 

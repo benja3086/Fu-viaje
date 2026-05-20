@@ -15,7 +15,7 @@ function Apoyo() {
     >
       <h2>Apoyo mensual sugerido</h2>
 
-      <h1>$600 USD</h1>
+      <h1>$2000 USD</h1>
 
       <h5>
         Este monto ayuda a cubrir vivienda, alimentación y gastos del ministerio
