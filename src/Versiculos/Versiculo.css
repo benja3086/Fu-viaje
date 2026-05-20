@@ -1,0 +1,57 @@
+.versiculo {
+  width: 100%;
+  background: #5a5a5a;
+  padding: 50px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Versículo */
+.versiculo h4 {
+  color: white;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 800;
+  margin: 0;
+  max-width: 900px;
+}
+
+/* Referencia bíblica */
+.versiculo h5 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 22px;
+  margin-bottom: 0;
+}
+
+/* Imagen opcional */
+.versiculo img {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .versiculo {
+    padding: 40px 20px;
+  }
+
+  .versiculo h4 {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .versiculo h5 {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+}

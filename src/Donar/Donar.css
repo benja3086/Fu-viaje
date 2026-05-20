@@ -1,0 +1,112 @@
+.donar {
+  width: 100%;
+  min-height: 100vh;
+
+  /* Fondo gris claro como tus secciones */
+  background: #f4f4f4;
+
+  padding: 50px 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #111;
+}
+
+/* Texto superior */
+.donar span {
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: #7a7a7a;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Título */
+.donar h1 {
+  font-size: 42px;
+  text-align: center;
+  line-height: 1.15;
+  margin: 0 0 24px;
+  font-weight: 800;
+  color: #000;
+}
+
+/* Texto */
+.donar p {
+  max-width: 340px;
+  text-align: center;
+  line-height: 1.8;
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 42px;
+}
+
+/* Grid */
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+/* Cuadros */
+.cuadro {
+  aspect-ratio: 1 / 1;
+
+  background: #e5e5e5;
+
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  color: #7ca900;
+
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+/* Hover */
+.cuadro:hover {
+  transform: translateY(-2px);
+
+  background: #dcdcdc;
+}
+
+/* Ocupados */
+.cuadro.ocupado {
+  background: #b7ff00;
+  color: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .donar {
+    padding: 38px 16px;
+  }
+
+  .donar h1 {
+    font-size: 34px;
+  }
+
+  .donar p {
+    font-size: 14px;
+  }
+
+  .grid {
+    gap: 6px;
+  }
+
+  .cuadro {
+    border-radius: 8px;
+    font-size: 11px;
+  }
+}
