@@ -23,7 +23,7 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.8 }}
       >
-        Llevando el 100% de la iglesia donde Dios quiere
+        Conectando a Jesús con el Pueblo Vasco{" "}
       </motion.h1>
 
       <motion.h5
@@ -31,7 +31,7 @@ function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.35, duration: 0.8 }}
       >
-        Apoyando la misión al Pueblo Vasco
+        Apoyando la misión entre los Euskaldunes
       </motion.h5>
 
       <a href="#compromiso">

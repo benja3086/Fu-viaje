@@ -11,6 +11,7 @@ import Desafio from "./Desafio/Desafio.jsx";
 import Donar from "./Donar/Donar.jsx";
 import Compromiso from "./Compromiso/Compromiso.jsx";
 import Apoyo from "./Apoyo/Apoyo.jsx";
+import Pueblovasco from "./Pueblovasco/Pueblovasco.jsx";
 import "./App.css";
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Contacto />
       <Necesidad />
       <Ezequiel />
+      <Pueblovasco />
       <Inmersion />
       <Salmos />
       <Establecer />

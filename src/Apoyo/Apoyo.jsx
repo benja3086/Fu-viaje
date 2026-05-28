@@ -26,17 +26,26 @@ function Apoyo() {
       <p>Transferencias en Pesos Argentinos</p>
 
       <p>
-        Banco: Macro Cuenta Corriente: 3-068-0294448-7 Titular: Convención
-        Evangélica Bautista Argentina Misiones CUIT: 30-70076200-4 CBU:
-        2850294430094448870 Alias: CENTRO.SUBELA.LIMITE
+        Banco: Galicia - PESOS <br />
+        Cuenta Corriente en pesos: N° 12614-4-007-1
+        <br />
+        Titular: Convención Evangélica Bautista Argentina Misiones
+        <br />
+        CUIT: 30-54125562-8 <br />
+        CBU: 0070007820000012614413 <br />
+        Alias: CENTRO.SUELA.LIMITE
       </p>
 
       <p>Transferencias en Dólares</p>
 
       <p>
-        Banco: Galicia Cuenta USD (ARG) Titular: Razón Social (Iglesia o Misión)
-        CUIT: 30-52227491-4 Cuenta: 4876-6 029-0 Razón Social: Confederación
-        Evangélica Bautista CBU: 0070029430004876602901
+        BANCO GALICIA CUENTA USD (ARG) <br />
+        Número de cuenta: 9750095-5 007-5 <br />
+        Razón Social: Confederación Evangélica Bautista
+        <br />
+        CUIT: 30-52227451-4
+        <br />
+        CBU: 0070007831009750095551{" "}
       </p>
 
       <h5>
@@ -49,14 +58,10 @@ function Apoyo() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <motion.button
-          whileHover={{ y: -2 }}
-          transition={{ duration: 0.2 }}
-        >
-          Enviar Comprobante
+        <motion.button whileHover={{ y: -2 }} transition={{ duration: 0.2 }}>
+          Apreta aca y mandame el comprobante{" "}
         </motion.button>
       </a>
-
     </motion.div>
   );
 }

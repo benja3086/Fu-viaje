@@ -1,12 +1,18 @@
+html {
+  font-size: 125%;
+}
+
 body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  font-family: serif;
+
+  font-family: "Georgia", serif;
   font-weight: 400;
   font-style: normal;
 
+  color: #111;
 }
 @media (max-width: 768px) {
   body {

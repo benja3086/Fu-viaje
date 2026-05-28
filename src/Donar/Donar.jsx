@@ -54,7 +54,7 @@ function Donar() {
 
       <p>
         Elige el monto que Dios ponga en tu corazón. Realiza la transferencia e
-        informanos por WhatsApp para marcar tu espacio: +54 9 381-7975 (Fabiana)
+        informanos por WhatsApp para marcar tu espacio: +54 9 381-368-7975 (Fabiana)
       </p>
 
       <div className="grid">

@@ -20,13 +20,13 @@ function Compromiso() {
 
       <h5>
         Tu apoyo hace posible que está misión se lleve a cabo. Te cuento cómo
-        podés ser parte de lo que Dios está haciendo en el País Vasco
+        podés ser parte de lo que Dios está haciendo en el Pueblo Vasco
       </h5>
 
       <h6>Oración</h6>
 
       <p>
-        Ora por la obra en el país Vasco. Ora por las personas que serán
+        Ora por la obra en el Pueblo Vasco. Ora por las personas que serán
         alcanzadas. Ora que Dios rompa las vendas de sus ojos para que puedan
         conocer a Jesús.
       </p>
