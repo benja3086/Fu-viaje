@@ -26,8 +26,8 @@ function App() {
       <Salmos />
       <Establecer />
       <Desafio />
-      <Donar />
       <Compromiso />
+      <Donar />
       <Apoyo />
     </main>
   );
