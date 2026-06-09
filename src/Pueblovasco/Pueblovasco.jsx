@@ -8,6 +8,11 @@ function Pueblovasco() {
       <h5>Viven 3 millones de euskaldunes</h5>
       <img src="españa.jpeg" alt="España" />
       <img src="pueblovasco.jpeg" alt="Pueblo Vasco" />
+      <h2>Ikurriña =</h2>
+      <img src="public\Bandera.png" alt="Ikurriña" />
+      <h2>Escudo =</h2>
+      <img src="public\Escudo.png" alt="Escudo" />
+      <h2>Idioma = Euskera</h2>
     </div>
   );
 }
