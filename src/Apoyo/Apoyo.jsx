@@ -3,6 +3,7 @@
 import React from "react";
 import "./Apoyo.css";
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Apoyo() {
   return (
@@ -13,12 +14,13 @@ function Apoyo() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
     >
-      <h2>Apoyo mensual sugerido</h2>
+      <h2>Presupuesto Mensual</h2>
 
-      <h1>$2000 USD</h1>
+      <h1>$2700 USD</h1>
 
       <h5>
-        Este monto ayuda a cubrir vivienda, alimentación y gastos del ministerio
+        Este monto ayuda a cubrir vivienda, alimentación, estudio de idioma y
+        gastos del ministerio
       </h5>
 
       <h6>Métodos de Transferencia</h6>
@@ -52,16 +54,22 @@ function Apoyo() {
         Importante: Después de realizar tu transferencia, por favor envía el
         comprobante para poder agradecerte personalmente.
       </h5>
-
+<section id="comprobante">
       <a
         href="https://wa.me/5493813687975?text=Hola!%20ya%20realicé%20la%20transferencia"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <motion.button whileHover={{ y: -2 }} transition={{ duration: 0.2 }}>
-          Apreta aca y mandame el comprobante{" "}
+        <motion.button
+          className="btn-comprobante"
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.98 }}
+        >
+          <FaWhatsapp size={64} />
+          <span>Apreta acá y mandame el comprobante</span>
         </motion.button>
       </a>
+      </section>
     </motion.div>
   );
 }

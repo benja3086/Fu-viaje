@@ -6,36 +6,43 @@ import { motion } from "framer-motion";
 
 function Donar() {
   const espacios = [
-    ...Array.from({ length: 10 }, (_, i) => ({
+    ...Array.from({ length: 20 }, (_, i) => ({
       id: `10-${i}`,
       monto: 10,
       ocupado: i < 2,
     })),
 
-    ...Array.from({ length: 15}, (_, i) => ({
+    ...Array.from({ length: 15 }, (_, i) => ({
       id: `20-${i}`,
       monto: 20,
       ocupado: i < 1,
     })),
 
-    ...Array.from({ length: 4 }, (_, i) => ({
+    ...Array.from({ length: 6 }, (_, i) => ({
       id: `50-${i}`,
       monto: 50,
       ocupado: i < 3,
     })),
 
-    ...Array.from({ length: 5 }, (_, i) => ({
+    ...Array.from({ length: 7 }, (_, i) => ({
       id: `100-${i}`,
       monto: 100,
       ocupado: i < 2,
     })),
 
-    ...Array.from({ length: 7 }, (_, i) => ({
+    ...Array.from({ length: 6 }, (_, i) => ({
       id: `200-${i}`,
       monto: 200,
       ocupado: i < 5,
     })),
   ];
+
+  const irAComprobante = () => {
+    document
+      .getElementById("comprobante")
+      ?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <motion.section
       className="donar"
@@ -54,7 +61,8 @@ function Donar() {
 
       <p>
         Elige el monto que Dios ponga en tu corazón. Realiza la transferencia e
-        informanos por WhatsApp para marcar tu espacio: +54 9 381-368-7975 (Fabiana)
+        infórmanos por WhatsApp para marcar tu espacio: +54 9 381-368-7975
+        (Fabiana)
       </p>
 
       <div className="grid">
@@ -62,8 +70,13 @@ function Donar() {
           <motion.div
             key={espacio.id}
             className={`cuadro ${espacio.ocupado ? "ocupado" : ""}`}
-            whileHover={{ y: -3 }}
+            whileHover={!espacio.ocupado ? { y: -3 } : {}}
             transition={{ duration: 0.2 }}
+            onClick={() => {
+              if (!espacio.ocupado) {
+                irAComprobante();
+              }
+            }}
           >
             {espacio.ocupado ? "✓" : `$${espacio.monto}`}
           </motion.div>

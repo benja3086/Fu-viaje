@@ -19,8 +19,9 @@ function Compromiso() {
       <h1>Cómo puedes apoyar esta misión</h1>
 
       <h5>
-        Tu apoyo hace posible que está misión se lleve a cabo. Te cuento cómo
-        podés ser parte de lo que Dios está haciendo en el Pueblo Vasco
+        Tu apoyo hace posible que esta misión se lleve a cabo.
+        <br/> Te cuento cómo podés ser parte de lo que Dios está haciendo en el
+        Pais Vasco
       </h5>
 
       <h6>Oración</h6>
@@ -38,7 +39,6 @@ function Compromiso() {
       <h6>Donación Única</h6>
 
       <p>Realiza una donación especial para necesidades específicas</p>
-
     </motion.div>
   );
 }

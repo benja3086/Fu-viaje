@@ -1,7 +1,6 @@
 .donar {
   width: 100%;
   min-height: 100vh;
-
   background: #f4f4f4;
 
   padding: 60px 20px;
@@ -12,6 +11,11 @@
   align-items: center;
 
   color: #111;
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Texto superior */
@@ -50,11 +54,9 @@
   max-width: 1200px;
 
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 
   gap: 12px;
-
   justify-items: center;
 }
 
@@ -62,11 +64,9 @@
 .cuadro {
   width: 100%;
   max-width: 140px;
-
   height: 90px;
 
   background: #e5e5e5;
-
   border-radius: 16px;
 
   display: flex;
@@ -78,23 +78,40 @@
 
   color: #7ca900;
 
-  transition: all 0.25s ease;
   cursor: pointer;
+  user-select: none;
+
+  transition: transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
 }
 
 /* Hover */
 .cuadro:hover {
-  transform: translateY(-4px);
-
+  transform: translateY(-6px);
   background: #dcdcdc;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Disponible */
+.cuadro:not(.ocupado) {
+  border: 2px solid transparent;
+}
+
+.cuadro:not(.ocupado):hover {
+  border-color: #7ca900;
 }
 
 /* Ocupados */
 .cuadro.ocupado {
   background: #b7ff00;
   color: #000;
+}
+
+.cuadro.ocupado:hover {
+  background: #a7ea00;
 }
 
 /* Responsive tablet */
@@ -110,7 +127,6 @@
   .cuadro {
     max-width: 120px;
     height: 80px;
-
     font-size: 24px;
   }
 }
@@ -144,9 +160,23 @@
   .cuadro {
     max-width: 100px;
     height: 70px;
-
     border-radius: 12px;
-
     font-size: 22px;
+  }
+}
+
+/* Celulares chicos */
+@media (max-width: 480px) {
+  .donar h1 {
+    font-size: 28px;
+  }
+
+  .donar p {
+    font-size: 14px;
+  }
+
+  .cuadro {
+    height: 60px;
+    font-size: 18px;
   }
 }
