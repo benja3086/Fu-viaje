@@ -19,6 +19,7 @@
   padding: 8px 14px;
   margin: 0 0 20px;
   text-transform: uppercase;
+  border-radius: 6px;
 }
 
 /* Título */
@@ -31,35 +32,35 @@
   max-width: 90%;
 }
 
-/* Texto */
-.Desafio h5 {
-  font-size: 15px;
+/* Texto descriptivo */
+.Desafio h4 {
+  font-size: 22px;
   line-height: 1.8;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
-  margin: 0 0 22px;
+  margin: 0 0 28px;
 }
 
 /* Lista */
 .Desafio p {
   position: relative;
-  padding-left: 18px;
-  font-size: 15px;
+  padding-left: 24px;
+  font-size: 20px;
   line-height: 1.6;
   color: white;
-  margin: 0 0 16px;
+  margin: 0 0 18px;
 }
 
 /* Puntitos verdes */
 .Desafio p::before {
   content: "";
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: #9cff00;
   position: absolute;
   left: 0;
-  top: 9px;
+  top: 12px;
 }
 
 /* Imagen */
@@ -67,7 +68,7 @@
   width: 100%;
   height: 210px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 12px;
   margin-top: 26px;
 }
 
@@ -75,16 +76,26 @@
 @media (max-width: 768px) {
   .Desafio {
     padding: 24px 18px 28px;
-    border-radius: 0px;
+    border-radius: 24px;
   }
 
   .Desafio h1 {
     font-size: 34px;
   }
 
-  .Desafio h5,
+  .Desafio h4 {
+    font-size: 26px;
+  }
+
   .Desafio p {
-    font-size: 14px;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .Desafio p::before {
+    width: 6px;
+    height: 6px;
+    top: 10px;
   }
 
   .Desafio img {

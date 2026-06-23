@@ -15,9 +15,9 @@ function Desafio() {
 
       <h1>Los desafíos de la misión</h1>
 
-      <h5>
+      <h4>
         Servir como misionera en el Pueblo Vasco presenta desafíos únicos:
-      </h5>
+      </h4>
 
       <p>Adaptación a una nueva cultura e idioma</p>
 

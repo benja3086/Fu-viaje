@@ -25,16 +25,16 @@ function Establecer() {
 
       <h1>Establecer comunidades de fe</h1>
 
-      <h5>
+      <h4>
         El objetivo a largo plazo es colaborar con la iglesia local para
         establecer comunidades de fe sólidas y autosostenibles que puedan
         continuar el trabajo del evangelio en la región
-      </h5>
+      </h4>
 
-      <h5>
+      <h4>
         Esto incluye discipular nuevos creyentes, formar líderes locales, y
         equipar a la iglesia para que sea luz en medio de su comunidad.
-      </h5>
+      </h4>
 
       <p>Formación de discípulos comprometidos</p>
 

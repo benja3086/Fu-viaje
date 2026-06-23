@@ -21,7 +21,7 @@ function Contacto() {
 
       <h2>HOLA, SOY FABIANA</h2>
 
-      <p>
+      <h3>
         Soy argentina y Dios me llamó a servir como misionera en el País Vasco,
         España. Esta es una región con una rica historia y cultura, pero también
         con una gran necesidad espiritual. Mi corazón late por ver comunidades
@@ -29,7 +29,7 @@ function Contacto() {
         junto con la iglesia local para alcanzar a aquellos que aún no conocen
         el evangelio. Te invito a ser parte de esta misión a través de tu
         oración y apoyo.
-      </p>
+      </h3>
     </motion.header>
   );
 }
