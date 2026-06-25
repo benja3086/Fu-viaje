@@ -15,11 +15,11 @@ function Inmersion() {
     >
       <h1>Sumergirme en la cultura y comunidad</h1>
 
-      <h3>
+      <h4>
         Mi objetivo es integrarme completamente en la vida del País Vasco,
         aprendiendo el idioma, conociendo la cultura y estableciendo relaciones
         genuinas con las personas.
-      </h3>
+      </h4>
 
       <div className="item">
         <FaHome className="icono" />
