@@ -87,7 +87,9 @@
   .necesidad h5 {
     font-size: 14px;
   }
-
+.necesidad p{
+    font-size: 20px;
+  }
   .necesidad img {
     height: 220px;
   }
