@@ -60,9 +60,9 @@ function Donar() {
       </h1>
 
       <p>
-        Elige el monto que Dios ponga en tu corazón. Realiza la transferencia e
-        infórmanos por WhatsApp para marcar tu espacio: +54 9 381-368-7975
-        (Fabiana)
+        Elige el monto que Dios ponga en tu corazón. Una vez realizada la
+        transferencia, porfa, envíame el comprobante por WhatsApp para informar
+        a la organización (AMI) para que me llegue el dinero.
       </p>
 
       <div className="grid">

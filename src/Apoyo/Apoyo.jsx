@@ -16,7 +16,7 @@ function Apoyo() {
     >
       <h2>Presupuesto Mensual</h2>
 
-      <h1>$2700 USD</h1>
+      <h1>$2100 USD</h1>
 
       <h5>
         Este monto ayuda a cubrir vivienda, alimentación, estudio de idioma y
@@ -54,21 +54,21 @@ function Apoyo() {
         Importante: Después de realizar tu transferencia, por favor envía el
         comprobante para poder agradecerte personalmente.
       </h5>
-<section id="comprobante">
-      <a
-        href="https://wa.me/5493813687975?text=Hola!%20ya%20realicé%20la%20transferencia"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <motion.button
-          className="btn-comprobante"
-          whileHover={{ scale: 1.03 }}
-          whileTap={{ scale: 0.98 }}
+      <section id="comprobante">
+        <a
+          href="https://wa.me/5493813687975?text=Hola!%20ya%20realicé%20la%20transferencia"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <FaWhatsapp size={64} />
-          <span>Apreta acá y mandame el comprobante</span>
-        </motion.button>
-      </a>
+          <motion.button
+            className="btn-comprobante"
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.98 }}
+          >
+            <FaWhatsapp size={64} />
+            <span>Apretá Aquí para enviar el comprobante. Gracias!</span>
+          </motion.button>
+        </a>
       </section>
     </motion.div>
   );

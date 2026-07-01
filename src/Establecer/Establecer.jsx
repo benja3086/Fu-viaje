@@ -26,9 +26,8 @@ function Establecer() {
       <h1>Establecer comunidades de fe</h1>
 
       <h4>
-        El objetivo a largo plazo es colaborar con la iglesia local para
-        establecer comunidades de fe sólidas y autosostenibles que puedan
-        continuar el trabajo del evangelio en la región
+        El objetivo a largo plazo es colaborar, durante los próximos dos años,
+        con una iglesia local....
       </h4>
 
       <h4>
